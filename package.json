@@ -1,0 +1,35 @@
+{
+  "name": "onloadjs",
+  "version": "0.0.0",
+  "description": "onload promise",
+  "main": "onload.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafumafuultu/onloadjs.git"
+  },
+  "keywords": [
+    "onload",
+    "promise"
+  ],
+  "author": "mafumafuultu <mafumafuultuforgit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafumafuultu/onloadjs/issues"
+  },
+  "homepage": "https://github.com/mafumafuultu/onloadjs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "esm": "^3.2.25",
+    "jsdom": "^16.4.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
+}
