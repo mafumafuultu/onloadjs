@@ -9,5 +9,5 @@ const {document} = dom.window;
 test('document.readyState is complete',async t => {
 	onload(document).then(() => {
 		t.is(document.readyState, 'complete');
-	})
+	});
 });
