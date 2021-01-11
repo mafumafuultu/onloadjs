@@ -1,6 +1,6 @@
 {
   "name": "onloadjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "onload promise",
   "main": "onload.js",
   "type": "module",
